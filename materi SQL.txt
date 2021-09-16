@@ -1,0 +1,142 @@
+*** BASIC SQL ***
+SELECT and FROM
+WHERE
+ALIASING
+LIMIT
+
+-- COMPARISON OPERATOR (to filter data)
+-- Equal to	(=)
+-- Not equal to	(<>) or (!=)
+-- Greater than	(>)
+-- Less than	(<)
+-- Greater than or equal to	(>=)
+-- Less than or equal to	(<=)
+
+-- Arithmetic in SQL (+, -, *, /,())
+
+-- SQL Logical operators
+-- (LIKE, IN, BETWEEN, IS NULL, AND, OR, NOT)  
+ALL, ANY, EXIST, SOME = ini yang belum ditambahin dan dicheck
+
+using LIKE and wildcard to filter (%)
+Sorting data with SQL ORDER BY
+
+*** INTERMEDIATE SQL ***
+
+-Aggregate Functions (tutorial.aapl_historical_stock_price)
+AVG
+COUNT
+SUM
+MAX
+MIN
+DISTINCT
+
+-Grouping Data (tutorial.aapl_historical_stock_price)
+GROUP BY
+HAVING
+teknik gruping set menggunakan GROUP BY
+WITH ROLLUP
+
+-Sorting Data (tutorial.aapl_historical_stock_price)
+ORDER BY
+
+-Conditional Control Flow Functions and Expressions (fifa_20.players_data)
+CASE
+WHEN
+THEN
+ELSE
+PIVOTING technique
+IF
+IFNULL
+NULLIF
+
+
+-Joining Tables (tutorial.crunchbase_companies & tutorial.crunchbase_acquisitions)
+FULL OUTER JOIN (gak ada di mysql adanya di postgresql tapi bisa disimulasikan atau mendekati)
+INNER JOIN
+LEFT JOIN
+RIGHT JOIN
+LEFT OUTER JOIN
+RIGHT OUTER JOIN
+SQL Joins Using WHERE or ON 
+CROSS JOIN
+SELF JOIN
+(ON VS USING clause)
+NATURAL JOIN (gak tau ada apa engga di mysql)
+
+-Set Operators (tutorial.crunchbase_investments_part1 & tutorial.crunchbase_investments_part2)
+SQL Joins with Comparison Operators
+SQL JOINS ON MULTIPLE KEY
+SQL SELF JOINS
+UNION and UNION ALL
+INTERSECT
+MINUS/EXCEPT
+
+
+
+
+** ADVANCED SQL ***
+
+-Subquery
+subquery
+derived table
+EXIST
+
+-String FUnction
+
+-Date Function
+
+-Partition By or Window Function
+PARTITION BY
+OVER
+
+
+
+
+tutorial.aapl_historical_stock_price
+COUNT, SUM, MIN/MAX, AVG, GROUP BY, HAVING, DISTINCT 
+
+benn.college_football_players
+CASE and logic and conditional control flow
+JOINS
+INNER JOIN
+
+tutorial.crunchbase_companies
+tutorial.crunchbase_acquisitions
+OUTER JOINS
+LEFT WIN
+RIGHT JOIN
+FULL OUTER JOIN
+SQL Joins Using WHERE or ON
+
+tutorial.crunchbase_investments_part1
+tutorial.crunchbase_investments_part2
+UNION
+SQL Joins with Comparison Operators
+SQL JOINS ON MULTIPLE KEY
+SQL SELF JOINS
+
+LOAD DATA LOCAL INFILE "C:/Program Files/MySQL/MySQL Server 8.0/Uploads/crunchbase_companies.csv" INTO TABLE companies
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(permalink, name, homepage_url, category_code, funding_total_usd, status, country_code, state_code, region, city, funding_rounds, founded_at, founded_month, founded_quarter, founded_year, first_funding_at, last_funding_at, last_milestone_at, id);
+
+
+
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+			
+                        
+                        
