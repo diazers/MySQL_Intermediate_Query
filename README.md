@@ -13,7 +13,8 @@ What you will learn inside this projects are :
 * Sorting your query with ORDER BY
 
 # INTERMEDIATE SQL
-## Aggregate Functions (tutorial.aapl_historical_stock_price)
+in this section iam exploring some dataset with intermediate use of SQL syntax
+## Aggregate Functions (aapl_historical_stock_price)
 * AVG
 * COUNT
 * SUM
@@ -21,13 +22,13 @@ What you will learn inside this projects are :
 * MIN
 * DISTINCT
 
-## Grouping Data (tutorial.aapl_historical_stock_price)
+## Grouping Data (aapl_historical_stock_price)
 * GROUP BY
 * HAVING
 * Grouping set using GROUP BY
 * WITH ROLLUP
 
-## Sorting Data (tutorial.aapl_historical_stock_price)
+## Sorting Data (aapl_historical_stock_price)
 * ORDER BY
 
 ## Conditional Control Flow Functions and Expressions (fifa_20.players_data)
@@ -41,7 +42,7 @@ What you will learn inside this projects are :
 * NULLIF
 
 
-## Joining Tables (tutorial.crunchbase_companies & tutorial.crunchbase_acquisitions)
+## Joining Tables (crunchbase_companies & crunchbase_acquisitions)
 * FULL OUTER JOIN (gak ada di mysql adanya di postgresql tapi bisa disimulasikan atau mendekati)
 * INNER JOIN
 * LEFT JOIN
@@ -54,7 +55,7 @@ What you will learn inside this projects are :
 * (ON VS USING clause)
 * NATURAL JOIN (gak tau ada apa engga di mysql)
 
-## Set Operators (tutorial.crunchbase_investments_part1 & tutorial.crunchbase_investments_part2)
+## Set Operators (crunchbase_investments_part1 & crunchbase_investments_part2)
 * SQL Joins with Comparison Operators
 * SQL JOINS ON MULTIPLE KEY
 * SQL SELF JOINS
