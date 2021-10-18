@@ -53,7 +53,6 @@ in this section iam exploring some dataset with intermediate use of SQL syntax
 * CROSS JOIN
 * SELF JOIN
 * (ON VS USING clause)
-* NATURAL JOIN (gak tau ada apa engga di mysql)
 
 ## Set Operators (crunchbase_investments_part1 & crunchbase_investments_part2)
 * SQL Joins with Comparison Operators
